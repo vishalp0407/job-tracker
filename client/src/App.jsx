@@ -1,11 +1,10 @@
-function App() {
+import Header from "./components";
+const App = () => {
   return (
-    <div>
-      <h1 className="text-yellow-600 text-6xl underline uppercase cursor-pointer">
-        vishal prajapati
-      </h1>
+    <div className="flex min-h-screen flex-col bg-amber-300">
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
